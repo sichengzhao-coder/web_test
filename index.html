@@ -5,22 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>X-Men Professor | portfolio</title>
-    <link rel="icon" type="image" href="./assets/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <title>Persona 5 | Phantom Thieves</title>
+
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+
     <div id="loading">
         <div id="spinner"></div>
     </div>
+
     <div id="particles-js"></div>
+
     <div id="box">
         <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
         <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
@@ -29,117 +38,283 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">ABOUT</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">PROFESSION</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">CONTACT</a>
-    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">PROJECTS</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
-        <h1>X-Men Professor</h1>
-        <h2>Developer | Scientist | Professor</h2>
+
+    <a id="about" onclick="showabout()" class="animated fadeIn"
+        style="animation-delay: 1000ms;">STORY</a>
+
+    <a id="work" onclick="showwork()" class="animated fadeIn"
+        style="animation-delay: 1000ms;">CHARACTERS</a>
+
+    <a id="contact" onclick="showcontact()" class="animated fadeIn"
+        style="animation-delay: 1000ms;">CONTACT</a>
+
+    <a id="projects" onclick="showprojects()" class="animated fadeIn"
+        style="animation-delay: 1000ms;">METAVERSE</a>
+
+    <div id="middle" class="animated slideInDown"
+        style="animation-delay: 2000ms;">
+
+        <img src="assets/joker.png" width="350">
+
+        <h1>Persona 5</h1>
+
+        <h2>The Phantom Thieves</h2>
+
         <div id="menu">
-            <a onclick="showabout()">ABOUT</a>
-            <a onclick="showwork()">PROFESSION</a>
+            <a onclick="showabout()">STORY</a>
+            <a onclick="showwork()">CHARACTERS</a>
             <a onclick="showcontact()">CONTACT</a>
-            <a onclick="showprojects()">PROJECTS</a>
+            <a onclick="showprojects()">METAVERSE</a>
         </div>
+
         <table>
             <tr>
-                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                        href="https://www.science.org/"><i class="fas fa-atom"></i></a></td> 
+                <td class="animated zoomIn" style="animation-delay:2.2s;">
+                    <a class="social" href="https://persona.atlus.com/p5r/">
+                        <i class="fas fa-mask"></i>
+                    </a>
+                </td>
             </tr>
         </table>
     </div>
+
+    <!-- METAVERSE -->
+
     <div id="projects_container" class="container">
-        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
-        <h1>Projects</h1>
+
+        <div onclick="closeprojects()">
+            <i class="fas fa-angle-right"></i>
+        </div>
+
+        <h1>Metaverse</h1>
+
         <section>
-            <h2>Work is my Hobby!</h2>
+
+            <h2>Enter the Palace</h2>
+
             <p>
-                Here are some of the projects I've worked on recently. Feel free to explore.
+                Persona 5 takes place in modern Tokyo where players live
+                a normal school life during the day and enter the mysterious
+                Metaverse at night.
             </p>
+
+            <p>
+                The Phantom Thieves steal corrupted hearts and fight
+                against evil adults who abuse their power.
+            </p>
+
             <ul>
+
                 <div class="project_card">
+
                     <div class="project_info">
-                        <h3>Portfolio</h3>
-                        <p>The Open-Source code for the Personal Portfolio this website is coming from! A minimal and
-                            ambient portfolio template for Developers! ⚡</p>
-                        <button class="btn_one"><a
-                                href="https://www.roboticenergyllc.com/"
-                                style="color: inherit; text-decoration: none"> View Project </a></button>
+
+                        <h3>Palaces</h3>
+
+                        <p>
+                            Each Palace represents the distorted desires
+                            of corrupted people. Players explore dungeons,
+                            solve puzzles, and defeat shadows.
+                        </p>
+
+                        <button class="btn_one">
+                            <a href="https://persona.atlus.com/p5r/"
+                                style="color: inherit; text-decoration: none">
+                                Enter Metaverse
+                            </a>
+                        </button>
+
                     </div>
+
                 </div>
-                
+
             </ul>
+
         </section>
+
     </div>
+
+    <!-- CHARACTERS -->
+
     <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>Profession</h1>
+
+        <div onclick="closework()">
+            <i class="fas fa-angle-right"></i>
+        </div>
+
+        <h1>Characters</h1>
+
         <section>
-            <h2>The job is not my job</h2>
+
+            <h2>Main Phantom Thieves</h2>
+
             <p>
-                Welcome! I'm X_men professor, a passionate professional specializing in fundamental science discovery. 
+                Persona 5 follows a group of students called the
+                Phantom Thieves. Together they change society by
+                stealing the hearts of corrupted people.
             </p>
+
             <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;Web Designing</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Content Writing</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Graphic Designing</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Joker</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Morgana</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Ryuji Sakamoto</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Ann Takamaki</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Makoto Niijima</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Yusuke Kitagawa</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Futaba Sakura</div>
+
+                <div><i class="fas fa-circle"></i>&nbsp;Haru Okumura</div>
+
             </div>
-            <button class="btn_one"><a href="./assets/AP_CSP_Test_Breakdown.pdf" target="_blank"
-                    style="color: inherit; text-decoration: none">View
-                    Resume</a></button>
+
+            <button class="btn_one">
+                <a href="https://megamitensei.fandom.com/wiki/Persona_5"
+                    target="_blank"
+                    style="color: inherit; text-decoration: none">
+
+                    Learn More
+
+                </a>
+            </button>
+
         </section>
+
     </div>
+
+    <!-- ABOUT -->
+
     <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-        <h1>About</h1>
+
+        <div onclick="closeabout()">
+            <i class="fas fa-angle-left"></i>
+        </div>
+
+        <h1>Persona 5 Story</h1>
+
         <section>
-            <h2>Are you looking for me?</h2>
+
+            <h2>Take Your Heart</h2>
+
             <p>
-                Ladies and gentlemen, please put your safety goggles on and firewall up—because entering the stage is the only human being who can debug Python code while balancing a chemical equation! Meet Professor G., a rare hybrid of a computer scientist and chemist—basically what happens when a compiler and a Bunsen burner fall in love.
-
-                They've got more RAM than your average brain and more volatile reactions than sodium in water. Their idea of a wild night? Refactoring code while simulating exothermic reactions. They speak fluent Java, C++, and periodic table. Legend says they once accidentally created a sentient AI by mixing caffeine with Red Bull and kernel-level access.
-
-                So whether it's electrons or electrons in circuits, this genius handles both with atomic precision. Be warned: they're 100% organic, 0% memory leak, and currently running on pure caffeine and curiosity!
+                Persona 5 is a Japanese role-playing game developed
+                by Atlus. The game became famous because of its
+                stylish visual design, music, and emotional story.
             </p>
 
             <p>
-                Feel free to explore my portfolio on my website, where you can witness the diverse range of projects
-                I've had the privilege to work on. 
+                Players explore Tokyo, build friendships,
+                attend school, and battle enemies inside
+                the Metaverse using powerful Personas.
+            </p>
+
+            <p>
+                The game mixes school life simulation,
+                dungeon exploration, and turn-based combat
+                into one unique experience.
             </p>
 
         </section>
+
         <section>
-            <h2>skills</h2>
+
+            <h2>Skills</h2>
+
             <p>
-                html, css, javascript, markdown, python, mysql, ....
+                Personas, Turn-Based Combat, Palace Exploration,
+                Social Links, Stealth Attacks, Team Battles
             </p>
+
         </section>
+
     </div>
+
+    <!-- CONTACT -->
+
     <div id="contact_container" class="container">
-        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+
+        <div onclick="closecontact()">
+            <i class="fas fa-angle-down"></i>
+        </div>
+
         <h1>Contact</h1>
+
         <section>
-            <h2>No way to reach out to me</h2>
+
+            <h2>Take Your Heart.</h2>
+
             <p>
-            <form action="https://formcarry.com/s/JKNu0aGkeQ" method="POST" class="formcarry-form">
-                <input name="name" type="text" placeholder="name" required />
-                <input name="email" type="email" placeholder="email" required /><br>
-                <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
+
+            <form action="https://formcarry.com/s/JKNu0aGkeQ"
+                method="POST"
+                class="formcarry-form">
+
+                <input name="name"
+                    type="text"
+                    placeholder="name"
+                    required />
+
+                <input name="email"
+                    type="email"
+                    placeholder="email"
+                    required />
+
+                <br>
+
+                <textarea name="message"
+                    placeholder="your message"
+                    required
+                    rows="5"></textarea>
+
+                <br>
+
                 <button class="btn_one">send</button>
+
             </form>
+
             </p>
 
-            <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></td> 
+            <td class="animated zoomIn" style="animation-delay:2.2s;">
+
+                <a class="social"
+                    href="https://persona.atlus.com/p5r/">
+
+                    <i class="fas fa-mask"></i>
+
+                </a>
+
+            </td>
+
         </section>
+
     </div>
+
+    <!-- FOOTER -->
+
     <div id="footer">
-        Unbelievable Particles Floating Around You<br> <a href="https://powerlock.github.io">ThePowerLock</a>
+
+        Take Your Heart - Persona 5 Fan Website
+
+        <br>
+
+        <a href="https://persona.atlus.com/p5r/">
+
+            Persona 5 Royal
+
+        </a>
+
     </div>
+
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
     <script src="app.js"></script>
+
 </body>
 
 </html>
