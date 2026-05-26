@@ -1,145 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>X-Men Professor | portfolio</title>
-    <link rel="icon" type="image" href="./assets/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+  <title>Persona 5 Website</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="particles-js"></div>
-    <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1900ms;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay: 1900ms;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
-    </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">ABOUT</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">PROFESSION</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">CONTACT</a>
-    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">PROJECTS</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
-        <h1>X-Men Professor</h1>
-        <h2>Developer | Scientist | Professor</h2>
-        <div id="menu">
-            <a onclick="showabout()">ABOUT</a>
-            <a onclick="showwork()">PROFESSION</a>
-            <a onclick="showcontact()">CONTACT</a>
-            <a onclick="showprojects()">PROJECTS</a>
-        </div>
-        <table>
-            <tr>
-                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                        href="https://www.science.org/"><i class="fas fa-atom"></i></a></td> 
-            </tr>
-        </table>
-    </div>
-    <div id="projects_container" class="container">
-        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
-        <h1>Projects</h1>
-        <section>
-            <h2>Work is my Hobby!</h2>
-            <p>
-                Here are some of the projects I've worked on recently. Feel free to explore.
-            </p>
-            <ul>
-                <div class="project_card">
-                    <div class="project_info">
-                        <h3>Portfolio</h3>
-                        <p>The Open-Source code for the Personal Portfolio this website is coming from! A minimal and
-                            ambient portfolio template for Developers! ⚡</p>
-                        <button class="btn_one"><a
-                                href="https://www.roboticenergyllc.com/"
-                                style="color: inherit; text-decoration: none"> View Project </a></button>
-                    </div>
-                </div>
-                
-            </ul>
-        </section>
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1>Profession</h1>
-        <section>
-            <h2>The job is not my job</h2>
-            <p>
-                Welcome! I'm X_men professor, a passionate professional specializing in fundamental science discovery. 
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;Web Designing</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Content Writing</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Graphic Designing</div>
-            </div>
-            <button class="btn_one"><a href="./assets/AP_CSP_Test_Breakdown.pdf" target="_blank"
-                    style="color: inherit; text-decoration: none">View
-                    Resume</a></button>
-        </section>
-    </div>
-    <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-        <h1>About</h1>
-        <section>
-            <h2>Are you looking for me?</h2>
-            <p>
-                Ladies and gentlemen, please put your safety goggles on and firewall up—because entering the stage is the only human being who can debug Python code while balancing a chemical equation! Meet Professor G., a rare hybrid of a computer scientist and chemist—basically what happens when a compiler and a Bunsen burner fall in love.
+  <div class="hero">
+    <h1>Persona 5</h1>
+    <p class="subtitle">A stylish Japanese role-playing game about rebellion, friendship, and changing society.</p>
+  </div>
 
-                They've got more RAM than your average brain and more volatile reactions than sodium in water. Their idea of a wild night? Refactoring code while simulating exothermic reactions. They speak fluent Java, C++, and periodic table. Legend says they once accidentally created a sentient AI by mixing caffeine with Red Bull and kernel-level access.
+  <div class="section">
+    <h2>About the Game</h2>
+    <p>
+      Persona 5 is a role-playing game made by Atlus. The story follows a group of high school students who become the
+      Phantom Thieves. They enter a mysterious world called the Metaverse and try to change the hearts of corrupt adults.
+    </p>
+  </div>
 
-                So whether it's electrons or electrons in circuits, this genius handles both with atomic precision. Be warned: they're 100% organic, 0% memory leak, and currently running on pure caffeine and curiosity!
-            </p>
+  <div class="section red">
+    <h2>Main Story</h2>
+    <p>
+      The main character is a student who moves to Tokyo after being falsely accused. At first, he seems like a normal
+      teenager, but he later gains the power of Persona. With his friends, he fights against people who abuse their power.
+    </p>
+  </div>
 
-            <p>
-                Feel free to explore my portfolio on my website, where you can witness the diverse range of projects
-                I've had the privilege to work on. 
-            </p>
+  <div class="section">
+    <h2>Main Characters</h2>
+    <ul>
+      <li>Joker - the leader of the Phantom Thieves</li>
+      <li>Morgana - a talking cat-like guide</li>
+      <li>Ryuji - Joker's first close friend</li>
+      <li>Ann - a kind and brave teammate</li>
+      <li>Makoto - a smart student council president</li>
+    </ul>
+  </div>
 
-        </section>
-        <section>
-            <h2>skills</h2>
-            <p>
-                html, css, javascript, markdown, python, mysql, ....
-            </p>
-        </section>
-    </div>
-    <div id="contact_container" class="container">
-        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-        <h1>Contact</h1>
-        <section>
-            <h2>No way to reach out to me</h2>
-            <p>
-            <form action="https://formcarry.com/s/JKNu0aGkeQ" method="POST" class="formcarry-form">
-                <input name="name" type="text" placeholder="name" required />
-                <input name="email" type="email" placeholder="email" required /><br>
-                <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
-                <button class="btn_one">send</button>
-            </form>
-            </p>
+  <div class="section black">
+    <h2>Why I Like Persona 5</h2>
+    <p>
+      I like Persona 5 because the game has a very strong art style. The red, black, and white colors make the website
+      and game feel energetic. The music, characters, and story also make the game memorable.
+    </p>
+  </div>
 
-            <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></td> 
-        </section>
-    </div>
-    <div id="footer">
-        Unbelievable Particles Floating Around You<br> <a href="https://powerlock.github.io">ThePowerLock</a>
-    </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+  <div class="section">
+    <h2>Game Features</h2>
+    <p>
+      Persona 5 mixes school life, dungeon exploration, turn-based battles, and social relationships. During the day,
+      players can study, work, hang out with friends, or improve skills. At night, they can prepare for battles or enter
+      the Metaverse.
+    </p>
+  </div>
+
+  <div class="section red">
+    <h2>References</h2>
+    <p>Official Persona website: https://persona.atlus.com/</p>
+    <p>Persona 5 information: https://en.wikipedia.org/wiki/Persona_5</p>
+  </div>
+
+  <script src="index.js"></script>
 </body>
-
 </html>
