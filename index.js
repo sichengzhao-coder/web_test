@@ -1,3 +1,7 @@
-、console.log("Persona 5 website loaded.");
+console.log("Persona 5 fan website loaded.");
 
-alert("Welcome to my Persona 5 website!");
+function showMessage() {
+  alert("Welcome to the Persona 5 fan website!");
+}
+
+window.onload = showMessage;
