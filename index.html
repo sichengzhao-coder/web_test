@@ -1,173 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>X-Men Professor | portfolio</title>
-    <link rel="icon" type="image" href="./assets/favicon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+  <title>Persona 5 Website</title>
+  <link rel="icon" type="image/png" href="./assets/favicon.png">
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div id="loading">
-        <div id="spinner"></div>
-    </div>
-    <div id="particles-js"></div>
-    <div id="box">
-        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay: 1700ms;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1800ms;"></div>
-        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay: 1900ms;"></div>
-        <div class="box2 animated bounceOutRight" style="animation-delay: 1900ms;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1800ms;"></div>
-        <div class="box2 onlywide animated bounceOutRight" style="animation-delay: 1700ms;"></div>
-    </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay: 1000ms;">ABOUT</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay: 1000ms;">LEGENDS</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay: 1000ms;">Join the Apex Games</a>
-    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay: 1000ms;">Fan Projects</a>
-    <div id="middle" class="animated slideInDown" style="animation-delay: 2000ms;">
-        <h1><a href="./assets/Apex-Legends-Wikipedia.pdf" target="_blank"
-                style="color: inherit; text-decoration: none">Apex Legends</h1>
-        <h2>Meet the Legends. Survive the Outlands.</h2>
-        <div id="menu">
-            <a onclick="showabout()">ABOUT</a>
-            <a onclick="showwork()">LEGENDS</a>
-            <a onclick="showcontact()">Fan Projects</a>
-            <a onclick="showprojects()">PROJECTS</a>
-        </div>
-        <table>
-            <tr>
-                <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                        href="https://www.ea.com/games/apex-legends/apex-legends"><i class="fas fa-atom"></i></a></td> 
-            </tr>
-        </table>
-    </div>
-    <div id="projects_container" class="container">
-        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
-     <h1>Fan Projects</h1>
-    <section>
-        <h2>Loadouts & Fan Creations</h2>
-        <p>
-            Welcome to the Forge — where creativity meets combat. Here you'll find curated Apex Legends content, including high-performance loadouts, fan-made art, and gameplay moments submitted by the community.
-        </p>
 
-        <h3> Top Legend Loadouts</h3>
-        <ul>
-            <li><strong>Wraith:</strong> R-99 + Peacekeeper – Agile and lethal for flanking assaults.</li>
-            <li><strong>Gibraltar:</strong> Spitfire + Charge Rifle – Great for holding positions and long-range suppression.</li>
-            <li><strong>Octane:</strong> EVA-8 + Volt SMG – Maximum speed with devastating close-range power.</li>
-            <li><strong>Bloodhound:</strong> 30-30 Repeater + Prowler – Tactical tracking with hybrid-range advantage.</li>
-            <li><strong>Valkyrie:</strong> Nemesis AR + Mastiff – Vertical repositioning with mid/short-range finishing.</li>
-        </ul>
+  <div class="main">
+    <div class="left">
+      <h1>PERSONA 5</h1>
+      <h2>Japanese RPG | Phantom Thieves | Metaverse</h2>
 
-        <h3> Featured Fan Art</h3>
-        <ul>
-            <li><strong>“Voidwalker”</strong> — A digital painting of Wraith’s phase form by <em>@SketchOmega</em>.</li>
-            <li><strong>“The Outlands’ Finest”</strong> — Team portrait of Bangalore, Mirage, and Lifeline in a neon Tokyo-style setting.</li>
-            <li><strong>“Pathfinder’s Smile”</strong> — Pixel art animation loop, featured on Reddit's r/apexlegends.</li>
-        </ul>
-
-        <h3> Epic Gameplay Clips</h3>
-        <ul>
-            <li><strong>1v3 Clutch by Revenant Main</strong> – Ranked endgame duel in Storm Point.</li>
-            <li><strong>360 Kraber Shot</strong> – Cross-map trickshot at Fragment East (World’s Edge).</li>
-            <li><strong>Ultimate Escape</strong> – Octane Stim-jump combo out of Caustic trap + ring.</li>
-        </ul>
-
-        <p>
-            Want to be featured? Share your fan project with us through the contact form. We highlight new submissions weekly!
-        </p>
-
-        <button class="btn_one">
-            <a href="#contact" style="color: inherit; text-decoration: none;">Submit Your Work</a>
-        </button>
-    </section>
-    </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
-        <h1><strong>Legends</strong></h1>
-        <section>
-            <h2>They’re not just fighters. They’re legends.</h2>
-            <p>
-                Welcome! Explore the diverse legends of Apex, each with unique abilities, personalities, and backstories that shape the world of the Apex Games.
-            </p>
-            <div id="used">
-                <div><i class="fas fa-circle"></i>&nbsp;Offensive</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Defensive</div>
-                <div><i class="fas fa-circle"></i>&nbsp;Support</div>
-            </div>
-            <button class="btn_one">
-                <a href="https://www.ea.com/games/apex-legends/apex-legends/characters-hub" target="_blank"
-                style="color: inherit; text-decoration: none">
-                View All Legends
-                </a>
-            </button>
-
-        </section>
+      <div class="menu">
+        <a href="#about">ABOUT</a>
+        <a href="#story">STORY</a>
+        <a href="#characters">CHARACTERS</a>
+        <a href="#gameplay">GAMEPLAY</a>
+      </div>
     </div>
 
-    <div id="about_container" class="container">
-        <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-        <h1><a href="https://www.ea.com/games/apex-legends/apex-legends/features" style="color: white; text-decoration: none;">About</a></h1>
-        <section>
-            <p>
-                <strong>Apex Legends</strong> is a free-to-play online battle royale game developed by Respawn Entertainment. Players form squads of two or three and choose from a cast of unique characters known as "Legends", each with their own tactical abilities, passive perks, and ultimate powers.
-            </p>
-
-            <p>
-                Set in the universe of <em>Titanfall</em>, the game takes place in the Outlands — a lawless, remote cluster of planets where legends battle for fame, glory, and survival. The Apex Games, a brutal bloodsport, attracts competitors from all walks of life: ex-soldiers, rogue scientists, bounty hunters, and even sentient robots.
-            </p>
-
-            <p>
-                Each season introduces new content, including maps like <em>World’s Edge</em> and <em>Storm Point</em>, limited-time modes, new legends, weapons, and rich narrative developments revealed through in-game events and animated stories.
-            </p>
-
-            <p>
-                Apex Legends stands out for its fast-paced movement, team-based strategy, deep lore, and strong community of players and creators. Whether you're in it for competitive ranked play or story-rich immersion, the game continues to evolve with every drop.
-            </p>
-        </section>
-        </div>
-    <div id="contact_container" class="container">
-        <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
-        <h2>Join the Apex Games</h2>
-<p>Want to share your fan art, game highlights, or ideas? Drop into the arena and send a message!</p>
-        <section>
-            <h2>No way to reach out to me</h2>
-            <p>
-            <form action="https://formcarry.com/s/JKNu0aGkeQ" method="POST" class="formcarry-form">
-                <input name="name" type="text" placeholder="name" required />
-                <input name="email" type="email" placeholder="email" required /><br>
-                <textarea name="message" placeholder="your message" required rows="5"></textarea><br>
-                <button class="btn_one">send</button>
-            </form>
-            </p>
-
-            <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"
-                href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a></td> 
-        </section>
+    <div class="right">
+      <img src="./assets/planet.jpg" alt="Persona 5 Game Image">
     </div>
-    <div id="footer">
-        <p>
-        All characters and images <br>
-        <br>
-        © EA/Respawn Entertainment.<br>
-        <br>
-        © 2025 Apex Legends Fan Showcase <br>
-        </p>
-        Official site: 
-        <a href="https://www.ea.com/games/apex-legends" target="_blank">apexlegends.com</a>
-    </div>
-    <script src="index.js" type="text/javascript"></script>
-    <script src="particles.js"></script>
-    <script src="app.js"></script>
+  </div>
+
+  <section id="about">
+    <h2>ABOUT THE GAME</h2>
+    <p>
+      Persona 5 is a Japanese role-playing game made by Atlus. The game follows a group of high school students
+      who secretly become the Phantom Thieves. The game is famous for its red, black, and white visual style,
+      jazz music, and strong story.
+    </p>
+  </section>
+
+  <section id="story">
+    <h2>STORY</h2>
+    <p>
+      The main character moves to Tokyo after being falsely accused. Later, he discovers the Metaverse, a hidden
+      world created by distorted desires. With his friends, he fights corrupt adults and tries to change their hearts.
+    </p>
+  </section>
+
+  <section id="characters">
+    <h2>MAIN CHARACTERS</h2>
+    <ul>
+      <li>Joker — Leader of the Phantom Thieves</li>
+      <li>Morgana — Guide and teammate</li>
+      <li>Ryuji — Loyal friend</li>
+      <li>Ann — Brave teammate</li>
+      <li>Makoto — Smart strategist</li>
+      <li>Futaba — Genius hacker</li>
+    </ul>
+  </section>
+
+  <section id="gameplay">
+    <h2>GAMEPLAY</h2>
+    <p>
+      Persona 5 combines school life, social relationships, dungeon exploration, and turn-based battles.
+      Players can study, work, spend time with friends, and enter Palaces to fight enemies.
+    </p>
+  </section>
+
+  <footer>
+    <p>References: Atlus Official Persona Website and Persona 5 information pages.</p>
+  </footer>
+
 </body>
-
 </html>
