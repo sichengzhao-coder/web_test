@@ -5,78 +5,81 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.top {
+header {
   background: #d71920;
-  color: white;
   text-align: center;
   padding: 90px 20px;
   border-bottom: 10px solid white;
   transform: skewY(-2deg);
 }
 
-.top h1 {
-  font-size: 80px;
+header h1 {
+  font-size: 85px;
   margin: 0;
   letter-spacing: 5px;
-  text-shadow: 6px 6px 0 black;
+  text-shadow: 7px 7px 0 black;
 }
 
-.top p {
-  font-size: 28px;
+header p {
+  font-size: 26px;
   font-weight: bold;
   text-shadow: 3px 3px 0 black;
 }
 
-.nav {
+nav {
   text-align: center;
-  padding: 25px;
   background: black;
+  padding: 25px;
 }
 
-.nav a {
+nav a {
   color: white;
   background: #d71920;
-  padding: 12px 25px;
-  margin: 8px;
   text-decoration: none;
   font-weight: bold;
+  padding: 12px 24px;
+  margin: 8px;
   border: 3px solid white;
   box-shadow: 5px 5px 0 white;
 }
 
-.card {
+.box {
   width: 75%;
   margin: 45px auto;
   padding: 30px;
-  background: white;
-  color: black;
   border: 5px solid black;
   box-shadow: 12px 12px 0 #d71920;
   transform: rotate(-1deg);
 }
 
-.card:nth-child(even) {
+.box:nth-child(even) {
   transform: rotate(1deg);
 }
 
-.card h2 {
+.box h2 {
+  display: inline-block;
   background: #d71920;
   color: white;
-  display: inline-block;
   padding: 10px 18px;
   font-size: 32px;
   text-shadow: 3px 3px 0 black;
 }
 
-.card p,
-.card li {
+.box p,
+.box li {
   font-size: 19px;
   line-height: 1.6;
+}
+
+.white {
+  background: white;
+  color: black;
 }
 
 .red {
   background: #d71920;
   color: white;
+  border: 5px solid white;
   box-shadow: 12px 12px 0 white;
 }
 
@@ -90,14 +93,10 @@ body {
   border: 5px solid white;
 }
 
-.black h2 {
+footer {
   background: #d71920;
-}
-
-.footer {
   text-align: center;
   padding: 30px;
-  background: #d71920;
   border-top: 8px solid white;
   font-weight: bold;
 }
